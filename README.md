@@ -4,7 +4,7 @@ Trying to find the most obnoxiously tiny and unreadable fizz-buzz solution possi
 >Create a for loop that iterates up to 100 while outputting "fizz" at multiples of 3, "buzz" at multiples of 5 and "fizzbuzz" at multiples of 3 and 5
 
 ```js
-for(i=0;++i<101;)console.log((i%3?'':'fizz')+(i%5?'':'buzz')||i)
+for(var i=0;++i<101;)console.log((i%3?'':'fizz')+(i%5?'':'buzz')||i)
 ```
 
 * Pre-increment i to shorten the for loop to truly unpleasant levels.
